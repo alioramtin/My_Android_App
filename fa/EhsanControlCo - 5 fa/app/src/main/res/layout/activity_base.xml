@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ehsan.ehsancontrolco.BaseActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="344dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:text=" با سلام خدمت شما عزیزان، این برنامه رایگان بوده و صرفا جهت تست مقدار قند خون شما میباشد. هدف ما تسهیل درانجام تست و نمایش مقدار بهمراه نمایش نمودار آن جهت بهتر مدیریت کردن قند خون شما میباشد. این برنامه هم مثل دیگر برنامه ها خالی از اشگال نیست. تیم ما با کمال میل آماده دریافت نقطه نظرات سازنده و خلاقانه شما عزیزان در جهت بهبوداین برنامه میباشد. لطفا با ما در تماس باشید! با تشکر از همکاری شما.  شرکت احسان"
+                android:textAllCaps="true"
+                android:textSize="24sp"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

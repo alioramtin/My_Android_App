@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ehsan.ehsancontrolco.TestActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Checking page"
+            android:textAlignment="center"
+            android:textColor="#262e0d"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="191dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <TextView
+            android:id="@+id/textViewShowResult"
+            android:layout_width="match_parent"
+            android:layout_height="244dp"
+            android:layout_weight="0.37"
+            android:elevation="1dp"
+            android:gravity="center"
+            android:lineSpacingExtra="30sp"
+            android:text=" "
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textSize="150dp"
+            android:typeface="monospace" />
+
+        <Button
+            android:id="@+id/btnChech"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="15dp"
+            android:background="#ddbb89"
+            android:onClick="btnChechClickListener"
+            android:text="Cheking"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnClearFile"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="15dp"
+            android:background="#e8ba75"
+            android:onClick="btnClearFileClickListener"
+            android:text="Erase all previous amounts" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginBottom="15dp"
+            android:background="#fea520"
+            android:onClick="btnExitClickListener"
+            android:text="Quit"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
